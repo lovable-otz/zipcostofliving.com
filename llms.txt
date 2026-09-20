@@ -1,0 +1,22 @@
+# ZipCost
+
+> ZipCost is a free cost-of-living and moving toolkit that compares states and metro areas with the U.S. Bureau of Economic Analysis Regional Price Parities, plus rent and moving calculators.
+
+## Tools
+- [Cost of Living Calculator](https://zipcostofliving.com/cost-of-living-calculator/): Compare the cost of living between any two states or metro areas and see the salary you need to keep the same buying power, from BEA data.
+- [Salary Comparison by City](https://zipcostofliving.com/salary-comparison-by-city/): See what your salary is worth in another metro area once local prices are counted, for 380+ U.S. metros using BEA price levels.
+- [Rent Affordability Calculator](https://zipcostofliving.com/rent-affordability-calculator/): Find the rent you can afford from your income with the 30% guideline and the 40× landlord income test, and adjust both to your situation.
+- [Prorated Rent Calculator](https://zipcostofliving.com/prorated-rent-calculator/): Calculate partial-month rent for a move-in or move-out date three ways: actual days in the month, a 365-day year or a 30-day month.
+- [Rent Split Calculator](https://zipcostofliving.com/rent-split-calculator/): Split rent between roommates equally, by income or by bedroom size with a shared-space share, and see each person’s monthly amount.
+- [Rent vs Buy Calculator](https://zipcostofliving.com/rent-vs-buy-calculator/): Compare renting with buying over the years you plan to stay, including closing and selling costs, upkeep and the return on money you keep.
+- [Moving Cost Calculator](https://zipcostofliving.com/moving-cost-calculator/): Add up the full cash cost of a move — truck or movers, fuel, supplies, travel, deposit and first month’s rent — from your own quotes.
+- [Budget Calculator (50/30/20)](https://zipcostofliving.com/budget-calculator/): Split your take-home pay into needs, wants and savings with the 50/30/20 guideline, or your own percentages, per month and per week.
+
+## Guides and data
+- [How Much Do Movers Cost?](https://zipcostofliving.com/how-much-do-movers-cost/): What local and long-distance movers charge, what drives the price, and how to read a moving estimate, with the source and date of every figure.
+- [How Much Does a Storage Unit Cost?](https://zipcostofliving.com/storage-unit-cost/): Typical monthly storage unit prices by size, what climate control adds, and how to choose the right size, with the source and date of every figure.
+- [Cost of Living by State](https://zipcostofliving.com/cost-of-living/): Every state’s price level compared with the U.S. average, with housing, goods and utilities broken out, from the BEA’s Regional Price Parities.
+
+## Sources
+- BEA — Regional Price Parities by State and Metro Area (2024): https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
+- EIA — Gasoline and Diesel Fuel Update: https://www.eia.gov/petroleum/gasdiesel/
