@@ -19,23 +19,28 @@
 <script src="/assets/calculator.js" defer></script>
 <script src="/assets/calc-core.js" defer></script>
 </head>
-<body>
-<header class="site"><div class="wrap"><a class="logo" href="/" aria-label="ZipCost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="541" height="238" loading="eager" decoding="async"></span></a><nav class="site"><a href="/rent-affordability-calculator/">Rent Affordability</a><a href="/cost-of-living-calculator/">Cost of Living</a><a href="/salary-comparison-by-city/">Salary Comparison by City</a><a href="/budget-calculator/">Budget Calculator (50/30/20)</a></nav></div></header>
-<main><div class="wrap">
-<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">ZipCost</a> › Cost of Living Calculator</nav>
-<div class="hero">
+<body><a class="skip-link" href="#main">Skip to content</a>
+<header class="site"><div class="wrap"><a class="logo" href="/" aria-label="ZipCost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="583" height="210" loading="eager" decoding="async"></span></a><input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open menu"><label class="burger" for="nav-toggle" aria-hidden="true"><span></span></label><nav class="site" aria-label="Primary"><a href="/rent-affordability-calculator/">Rent Affordability</a><a href="/cost-of-living-calculator/">Cost of Living</a><a href="/salary-comparison-by-city/">Salary Comparison by City</a><a href="/budget-calculator/">Budget Calculator (50/30/20)</a></nav></div></header>
+<main id="main">
+<div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">ZipCost</a> › Cost of Living Calculator</nav><details class="subnav"><summary><span>Browse all pages</span></summary><div class="subnav-grid"><div class="subnav-col"><p class="subnav-h">Calculators</p><ul><li><a href="/rent-affordability-calculator/">Rent Affordability Calculator</a></li><li><a href="/cost-of-living-calculator/" aria-current="page">Cost of Living Calculator</a></li><li><a href="/salary-comparison-by-city/">Salary Comparison by City</a></li><li><a href="/budget-calculator/">Budget Calculator (50/30/20)</a></li><li><a href="/moving-cost-calculator/">Moving Cost Calculator</a></li><li><a href="/rent-vs-buy-calculator/">Rent vs Buy Calculator</a></li><li><a href="/">All tools</a></li></ul></div></div></details></div>
+<section class="hero-band"><div class="hero">
 <div>
+<p class="eyebrow">ZipCost <span aria-hidden="true">&middot;</span> Free calculator</p>
 <h1>Cost of Living Calculator</h1>
 <p class="answer">A <strong>cost of living calculator</strong> turns your salary into the pay that buys the same things somewhere else. This one uses the <a href="https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area" rel="nofollow noopener">Bureau of Economic Analysis Regional Price Parities for 2024</a>, released February 19, 2026. By those figures, $60,000 in Alabama has the same buying power as about $74,791 in California.</p>
 <p class="updated">Updated <time datetime="2026-09-20">September 20, 2026</time> · By <a href="/about/">ZipCost</a></p>
+<div class="hero-cta"><a class="btn-hero" href="#calculator">Open the calculator</a></div><ul class="hero-chips"><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Updated September 2026</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Free &mdash; no sign-up</li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12l5 5L20 6"/></svg>Sources cited</li></ul>
 </div>
 <figure class="hero-photo"><img src="/assets/img/p-cost-of-living-calculator.jpg" alt="A happy couple surrounded by boxes while moving into a new apartment, symbolizing fresh beginnings." width="1000" height="600" loading="eager" decoding="async" fetchpriority="high"></figure>
-</div>
+</div></section>
+<div class="wrap">
+
 <div id="calculator" data-calc="colCompare"><noscript>This tool needs JavaScript turned on.</noscript></div>
 <div class="ad-slot"><!-- Ad slot 1 (below the tool). Empty until the ad network is approved; reserve its height in CSS first. --></div>
 
 <section class="sec">
 <h2>How does the cost of living calculator work?</h2>
+<figure class="sec-photo"><img src="/assets/img/s-cost-of-living-calculator-0.jpg" alt="City landscape featuring snow-covered buildings and rooftops during winter." width="940" height="627" loading="lazy" decoding="async"></figure>
 <p>The calculator divides the price level of the place you are considering by the price level where you live now, then multiplies your salary by that ratio. The answer is the income that keeps your buying power the same, based on 2024 average prices for each state or metro area.</p><p><strong>Equivalent salary = your salary × (new place’s price level ÷ current place’s price level)</strong></p><p>You choose two places from one list: all 50 states, the District of Columbia and the 387 metro areas in the tool. Under the headline figure, the tool runs the same ratio for the four categories BEA reports separately: goods, housing (rents), utilities and other services. That breakdown shows which part of a budget creates the gap.</p><p>The comparison works at state and metro level only, because that is how the BEA data behind it is published. It does not estimate prices for a ZIP code or a neighborhood. To scan every state at once, open the <a href="/cost-of-living/">cost of living by state</a> table.</p>
 </section>
 
@@ -56,6 +61,7 @@
 
 <section class="sec">
 <h2>What the comparison leaves out</h2>
+<figure class="sec-photo"><img src="/assets/img/s-cost-of-living-calculator-4.jpg" alt="Urban buildings at dusk with illuminated windows, capturing a serene cityscape moment." width="940" height="529" loading="lazy" decoding="async"></figure>
 <p>The comparison covers prices only. It does not adjust for income taxes, the cost of the move itself, or what your job pays in the new area. It also averages whole states and metro areas, so a given neighborhood can sit well above or below its regional level.</p><ul><li><strong>Income taxes:</strong> the tool does not add state or local income tax, which differs from state to state.</li><li><strong>Moving costs:</strong> trucks, movers, deposits and first month’s rent are a one-time cost. The <a href="/moving-cost-calculator/">moving cost calculator</a> adds them up.</li><li><strong>Timing:</strong> the figures describe 2024. Rents and prices in either place may have moved since.</li></ul><p>Treat the result as a starting estimate, then check it against real rent listings and quotes in the place you are considering. How the data is loaded and refreshed is explained on the <a href="/methodology/">methodology</a> page.</p>
 </section>
 
@@ -69,7 +75,7 @@
 </div>
 </section>
 
-<section class="sec">
+<div class="endmatter"><section class="sec is-short">
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area" rel="nofollow noopener">BEA — Regional Price Parities by State and Metro Area (2024)</a></li>
@@ -79,7 +85,7 @@
 </ul>
 </section>
 
-<section class="sec">
+<section class="sec is-short">
 <h2>Related tools</h2><figure class="sec-photo"><img src="/assets/img/x-cost-of-living-calculator-4.jpg" alt="Pile of cardboard containers prepared for relocation on floor at home in daylight on white background" width="900" height="520" loading="lazy" decoding="async"></figure>
 <ul>
 <li><a href="/salary-comparison-by-city/">Salary Comparison by City</a></li>
@@ -92,10 +98,10 @@
 <li><a href="/rent-split-calculator/">Rent Split Calculator</a></li>
 </ul>
 <p class="disclaimer">Estimates for information only — not financial or real estate advice. Prices in your neighborhood, your lease and your quotes decide the real numbers.</p>
-</section>
+</section></div>
 </div></main>
 <footer class="site"><div class="wrap">
-<div class="f-brand"><a class="footer-brand" href="/" aria-label="ZipCost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="541" height="238" loading="lazy" decoding="async"></span></a></div>
+<div class="f-brand"><a class="footer-brand" href="/" aria-label="ZipCost home"><span class="logo-mark"><img class="lk" src="/assets/brand/lockup.svg" alt="" width="583" height="210" loading="lazy" decoding="async"></span></a></div>
 <nav class="f-col" aria-label="Calculators"><h3>Calculators</h3><ul><li><a href="/rent-affordability-calculator/">Rent Affordability Calculator</a></li><li><a href="/cost-of-living-calculator/">Cost of Living Calculator</a></li><li><a href="/salary-comparison-by-city/">Salary Comparison by City</a></li><li><a href="/budget-calculator/">Budget Calculator (50/30/20)</a></li><li><a href="/moving-cost-calculator/">Moving Cost Calculator</a></li><li><a href="/rent-vs-buy-calculator/">Rent vs Buy Calculator</a></li><li><a href="/">All tools</a></li></ul></nav>
 <nav class="f-col" aria-label="Company"><h3>Company</h3><ul><li><a href="/about/">About</a></li><li><a href="/methodology/">Methodology</a></li><li><a href="/contact/">Contact</a></li></ul></nav>
 <nav class="f-col" aria-label="Legal"><h3>Legal</h3><ul><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms</a></li></ul></nav>
